@@ -12,7 +12,7 @@ if uploaded_file:
     img = Image.open(uploaded_file)
     #convert to grayscale
     gray_img = img.convert('L')
-    #display the image
+    #display the image pushed by the user
     st.image(gray_img)
 
 st.write("---")
